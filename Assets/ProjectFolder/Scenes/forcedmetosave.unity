@@ -3174,7 +3174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3a19063a2e41cd64bab9e92dfcdffb13, type: 3}
       propertyPath: m_Name
-      value: 'Tofu '
+      value: Tofu
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3a19063a2e41cd64bab9e92dfcdffb13, type: 3}
       propertyPath: m_TagString
@@ -9649,10 +9649,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.020071274
+  m_Radius: 0.023726813
   m_Height: 0.1597398
   m_Direction: 2
-  m_Center: {x: -0.26310802, y: 0.73883545, z: 0.060130227}
+  m_Center: {x: -0.26310912, y: 0.7351799, z: 0.060130224}
 --- !u!114 &752007455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22441,7 +22441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: daf9a3fb25494a549baa7fea3886bf2a, type: 3}
       propertyPath: m_Name
-      value: Noms The Bunny
+      value: Lil Bunny
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: daf9a3fb25494a549baa7fea3886bf2a, type: 3}
       propertyPath: m_TagString
@@ -24091,11 +24091,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6434093347429521534, guid: 168e1be34f47e684689ae68234a0eee7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.578
+      value: 9.44
       objectReference: {fileID: 0}
     - target: {fileID: -6434093347429521534, guid: 168e1be34f47e684689ae68234a0eee7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.666
+      value: 2.921
       objectReference: {fileID: 0}
     - target: {fileID: -6434093347429521534, guid: 168e1be34f47e684689ae68234a0eee7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24154,8 +24154,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4509093, y: 0.5304999, z: 1.22512}
-  m_Center: {x: -0.095978834, y: -0.4030763, z: -0.19368751}
+  m_Size: {x: 0.45090932, y: 0.38689163, z: 0.8106715}
+  m_Center: {x: -1.2592502e-15, y: 0.36820778, z: 0.2072249}
 --- !u!114 &1779986900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25438,7 +25438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f3dc3e03c12dfe14288c023d75c24ebc, type: 3}
       propertyPath: m_Name
-      value: Rosie Rabbit
+      value: Riby
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f3dc3e03c12dfe14288c023d75c24ebc, type: 3}
       propertyPath: m_TagString

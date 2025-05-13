@@ -35,11 +35,11 @@ public class SpeakingScript : MonoBehaviour
         {
             Text.text = "Stop touching me";
         }
-        if (character.Equals("Rosie Rabbit"))
+        if (character.Equals("Riby"))
         {
             Text.text = "Hi";
         }
-        if (character.Equals("Noms The Bunny"))
+        if (character.Equals("Lil Bunny"))
         {
             Text.text = "What's up with the axe";
         }

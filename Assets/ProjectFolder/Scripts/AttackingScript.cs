@@ -180,7 +180,7 @@ public class AttackingScript : MonoBehaviour
                         if (raycast.transform.gameObject.GetComponent<Trees>())
                         {
                             checkedRay = false;
-                            attackAnimationWaitSec = attackAnimationWaitSec / 1.05f;
+                           // attackAnimationWaitSec = attackAnimationWaitSec / 1.05f;
                             originalWaitTime = attackAnimationWaitSec;
                             StartCoroutine(attackAnimationWaitTree(raycast));
 
@@ -195,7 +195,7 @@ public class AttackingScript : MonoBehaviour
                         if (raycast.transform.gameObject.GetComponent<Trees>())
                         {
                             checkedRay = false;
-                            attackAnimationWaitSec = attackAnimationWaitSec / 1.05f;
+                           // attackAnimationWaitSec = attackAnimationWaitSec / 1.05f;
                             originalWaitTime = attackAnimationWaitSec;
                             StartCoroutine(attackAnimationWaitTree(raycast));
                         }
@@ -209,7 +209,7 @@ public class AttackingScript : MonoBehaviour
                         if (raycast.transform.gameObject.GetComponent<Animals>())
                         {
                             checkedRay = false;
-                            attackAnimationWaitSec = attackAnimationWaitSec / 1.05f;
+                           // attackAnimationWaitSec = attackAnimationWaitSec / 1.05f;
                             originalWaitTime = attackAnimationWaitSec;
                             StartCoroutine(attackAnimationWaitAnimal(raycast));
 
@@ -282,7 +282,7 @@ public class AttackingScript : MonoBehaviour
    public void resetHurt(bool hurtDone)
     {
         this.hurtDone = hurtDone;
-         attackAnimationWaitSec = 0.67f;
+        // attackAnimationWaitSec = 0.67f;
     }
     IEnumerator attackCooldownWait()
     {
