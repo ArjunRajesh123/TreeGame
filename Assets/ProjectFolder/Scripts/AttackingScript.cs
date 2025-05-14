@@ -29,6 +29,7 @@ public class AttackingScript : MonoBehaviour
     public bool hurtDone = false;
     public AttackingScript me;
     private float originalWaitTime;
+    public AudioSource treeHitSound;
 
     void Start()
     {
@@ -271,12 +272,12 @@ public class AttackingScript : MonoBehaviour
                 if (mat.GetColor("_BarkColor") != null)
                 {
                     main.startColor = new Color(mat.GetColor("_BarkColor").r, mat.GetColor("_BarkColor").g, mat.GetColor("_BarkColor").b, 1f);
-                    vfx = Instantiate(axeHitParticle, raycast.point, Quaternion.identity);
+                    vfx = Instantiate(axeHitParticle, raycast.point, Quaternion.identity);  
                     Destroy(vfx, 1f);
                 }
             }
-            doingPartical = false;
         }
+        doingPartical = false;
     }
 
    public void resetHurt(bool hurtDone)
@@ -293,8 +294,10 @@ public class AttackingScript : MonoBehaviour
     {
         Trees Trees = raycast.transform.gameObject.GetComponent<Trees>();
         yield return new WaitForSeconds(attackAnimationWaitSec);
+
         if (Trees && hurtDone == false)
         {
+            treeHitSound.Play();
             hurtDone = true;
             Trees.Hurt(me);
         }

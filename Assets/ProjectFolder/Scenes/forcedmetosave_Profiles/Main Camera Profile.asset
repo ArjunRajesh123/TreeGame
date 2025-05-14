@@ -53,10 +53,10 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: -33
+    value: -45
   tint:
     overrideState: 1
-    value: -66
+    value: -100
   colorFilter:
     overrideState: 1
     value: {r: 1, g: 0.5798212, b: 0.2688679, a: 1}
@@ -86,13 +86,13 @@ MonoBehaviour:
     value: 0
   mixerGreenOutRedIn:
     overrideState: 1
-    value: 11
+    value: -0
   mixerGreenOutGreenIn:
     overrideState: 1
-    value: 25
+    value: 35
   mixerGreenOutBlueIn:
     overrideState: 1
-    value: 81
+    value: 112
   mixerBlueOutRedIn:
     overrideState: 0
     value: 0
@@ -1329,7 +1329,7 @@ MonoBehaviour:
     value: 1
   filtering:
     overrideState: 1
-    value: {x: 28.422018, y: 73.42209}
+    value: {x: 38.815956, y: 83.816025}
   minLuminance:
     overrideState: 1
     value: -0.6
@@ -1413,7 +1413,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.22
+    value: 0.69
   color:
     overrideState: 1
     value: {r: 0.6179246, g: 1, b: 0.8414675, a: 1}
@@ -1431,7 +1431,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1
+    value: 5.28
   zBias:
     overrideState: 0
     value: 0.0001
@@ -1481,7 +1481,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 6
+    value: 9
   threshold:
     overrideState: 0
     value: 1
@@ -1509,7 +1509,7 @@ MonoBehaviour:
     defaultState: 1
   dirtIntensity:
     overrideState: 0
-    value: 0
+    value: 2.2
 --- !u!114 &7480297310671811209
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1528,7 +1528,7 @@ MonoBehaviour:
     value: 1
   focusDistance:
     overrideState: 1
-    value: 0.1
+    value: 0.5
   aperture:
     overrideState: 1
     value: 32

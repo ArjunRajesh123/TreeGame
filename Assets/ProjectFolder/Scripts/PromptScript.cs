@@ -21,6 +21,8 @@ public class PromptScript : MonoBehaviour
 
     public GameObject SpeakingText;
 
+    public float TalkRange = 1.4f;
+
     SpeakingScript speakScript;
     void Start()
     {
@@ -47,7 +49,7 @@ public class PromptScript : MonoBehaviour
             }
 
 
-            if (distance.magnitude < 1.4f)
+            if (distance.magnitude < TalkRange)
             {
                 transform.gameObject.GetComponent<Image>().enabled = true;
                 transform.gameObject.GetComponentInChildren<TextMeshProUGUI>().enabled = true;

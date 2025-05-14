@@ -47,10 +47,19 @@ public class SpeakingScript : MonoBehaviour
         {
             Text.text = "Wanna pet me";
         }
-        if (character.Equals("Carrot Jr"))
+        if (character.Equals("Carrot"))
         {
             Text.text = "Feed Me";
         }
+        if (character.Equals("Kong"))
+        {
+            Text.text = "What are you looking at";
+        }
+        if (character.Equals("Squeal"))
+        {
+            Text.text = "This assigment is due in a hour";
+        }
+
 
     }
    public void MovePage(String TalkCharacter)

@@ -27,8 +27,11 @@ public class Movement : MonoBehaviour
         {
             if (attackingScript.IsAnimationPlaying == false && attackingScript.anim.isPlaying == false)
             {
-                attackingScript.moveAnim();
-                canMakeIdle = true;
+                if (rb.linearVelocity.magnitude >= 1.7)
+                {
+                    attackingScript.moveAnim();
+                    canMakeIdle = true;
+                }
             }
             moveDirection += transform.forward;
         }

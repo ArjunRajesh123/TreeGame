@@ -1,4 +1,4 @@
-Font: Roboto Slab  Style: Regular
+Font: Source Serif 4  Style: Italic
 Point Size: 50   Padding: -1073741824   SP/PD Ratio: -2147484000.0%
 
 Characters included: 98/99
